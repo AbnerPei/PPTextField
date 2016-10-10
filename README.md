@@ -1,7 +1,14 @@
 # PPTextField
 > 一个属性搞定textfield的各种（纯数字，出数字最大个数，价格，字符串长度【区分中英文，不区分】等）限制
 
+
+![PPTextfield 演示](https://raw.githubusercontent.com/chinesemanbobo/PPTextField/4d08cd1e7e6c5911fb3fdd32f35e48865065fcad/PPTextfield演示.gif)
+
+`输入完成后，以很快的速度点击键盘时，字符串的后替换掉最后一个，谁有解决方法，求指导！！！谢谢！`
+
+![bug 演示](https://raw.githubusercontent.com/chinesemanbobo/PPTextField/4d08cd1e7e6c5911fb3fdd32f35e48865065fcad/PPTextfield%20bug.gif)
 ##作用：处理各种烦人的限制
+
 
 > 在开发中，你是否遇到这样的产品需求：
 ```
