@@ -1,5 +1,5 @@
 # PPTextField
-> 一个属性搞定textfield的各种（纯数字，出数字最大个数，价格，字符串长度【区分中英文，不区分】等）限制
+> 一个属性搞定textfield的各种（纯数字，纯数字最大个数，价格，字符串长度【区分中英文，不区分】等）限制
 
 
 ![PPTextfield 演示](https://raw.githubusercontent.com/chinesemanbobo/PPTextField/4d08cd1e7e6c5911fb3fdd32f35e48865065fcad/PPTextfield演示.gif)
