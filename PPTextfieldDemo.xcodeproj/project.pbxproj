@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570F721A1E7E9A02006BCAFC /* NSString+PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */; };
+		570F721B1E7E9A02006BCAFC /* PPTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F72191E7E9A02006BCAFC /* PPTextfield.m */; };
 		C6FEE3FB1DAB74BA00316D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE3FA1DAB74BA00316D14 /* main.m */; };
 		C6FEE3FE1DAB74BA00316D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE3FD1DAB74BA00316D14 /* AppDelegate.m */; };
 		C6FEE4011DAB74BA00316D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE4001DAB74BA00316D14 /* ViewController.m */; };
 		C6FEE4041DAB74BA00316D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FEE4021DAB74BA00316D14 /* Main.storyboard */; };
 		C6FEE4061DAB74BA00316D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FEE4051DAB74BA00316D14 /* Assets.xcassets */; };
 		C6FEE4091DAB74BA00316D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FEE4071DAB74BA00316D14 /* LaunchScreen.storyboard */; };
-		C6FEE4171DAB76F300316D14 /* PPTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE4161DAB76F300316D14 /* PPTextfield.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570F72161E7E9A02006BCAFC /* NSString+PPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPTextField.h"; sourceTree = "<group>"; };
+		570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPTextField.m"; sourceTree = "<group>"; };
+		570F72181E7E9A02006BCAFC /* PPTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextfield.h; sourceTree = "<group>"; };
+		570F72191E7E9A02006BCAFC /* PPTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextfield.m; sourceTree = "<group>"; };
 		C6FEE3F61DAB74BA00316D14 /* PPTextfieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPTextfieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FEE3FA1DAB74BA00316D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6FEE3FC1DAB74BA00316D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +32,6 @@
 		C6FEE4051DAB74BA00316D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FEE4081DAB74BA00316D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6FEE40A1DAB74BB00316D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6FEE4151DAB76F300316D14 /* PPTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextfield.h; sourceTree = "<group>"; };
-		C6FEE4161DAB76F300316D14 /* PPTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextfield.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570F72151E7E9A02006BCAFC /* PPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				570F72161E7E9A02006BCAFC /* NSString+PPTextField.h */,
+				570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */,
+				570F72181E7E9A02006BCAFC /* PPTextfield.h */,
+				570F72191E7E9A02006BCAFC /* PPTextfield.m */,
+			);
+			path = PPTextField;
+			sourceTree = "<group>";
+		};
 		C6FEE3ED1DAB74B900316D14 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +75,7 @@
 		C6FEE3F81DAB74BA00316D14 /* PPTextfieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C6FEE4141DAB76F300316D14 /* PPTextField */,
+				570F72151E7E9A02006BCAFC /* PPTextField */,
 				C6FEE3FC1DAB74BA00316D14 /* AppDelegate.h */,
 				C6FEE3FD1DAB74BA00316D14 /* AppDelegate.m */,
 				C6FEE3FF1DAB74BA00316D14 /* ViewController.h */,
@@ -81,15 +95,6 @@
 				C6FEE3FA1DAB74BA00316D14 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C6FEE4141DAB76F300316D14 /* PPTextField */ = {
-			isa = PBXGroup;
-			children = (
-				C6FEE4151DAB76F300316D14 /* PPTextfield.h */,
-				C6FEE4161DAB76F300316D14 /* PPTextfield.m */,
-			);
-			path = PPTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FEE4011DAB74BA00316D14 /* ViewController.m in Sources */,
-				C6FEE4171DAB76F300316D14 /* PPTextfield.m in Sources */,
+				570F721A1E7E9A02006BCAFC /* NSString+PPTextField.m in Sources */,
 				C6FEE3FE1DAB74BA00316D14 /* AppDelegate.m in Sources */,
 				C6FEE3FB1DAB74BA00316D14 /* main.m in Sources */,
+				570F721B1E7E9A02006BCAFC /* PPTextfield.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,7 @@
 				C6FEE40F1DAB74BB00316D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
