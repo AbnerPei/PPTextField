@@ -13,6 +13,13 @@
 {
     return [self matchRegularWith:stringType];
 }
+-(BOOL)pp_isSpecialLetter
+{
+    if ([self pp_is:PPTextFieldStringTypeNumber] || [self pp_is:PPTextFieldStringTypeLetter] || [self pp_is:PPTextFieldStringTypeChinese]) {
+        return NO;
+    }
+    return YES;
+}
 #pragma mark --- 用正则判断条件
 -(BOOL)matchRegularWith:(PPTextFieldStringType)type
 {
@@ -59,7 +66,7 @@
         for (int i = 0; i<self.length; i++) {
             NSString *indexStr = [self substringWithRange:NSMakeRange(i, 1)];
             
-            if ([indexStr pp_is:PPTextFieldStringTypeNumber] || [indexStr pp_is:PPTextFieldStringTypeLetter] || [indexStr pp_is:PPTextFieldStringTypeChinese] || (exceptLetters && [exceptLetters containsObject:indexStr])) {
+            if (![indexStr pp_isSpecialLetter] || (exceptLetters && [exceptLetters containsObject:indexStr])) {
                 [resultStr appendString:indexStr];
             }
         }

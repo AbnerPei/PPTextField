@@ -102,7 +102,7 @@
         _isPrice = NO;
         self.keyboardType = UIKeyboardTypeNumberPad;
     }
-
+    
 }
 
 -(void)setIsPrice:(BOOL)isPrice
@@ -217,9 +217,8 @@
         if (!canChange) {
             if ([self.canInputPasswords containsObject:string]) {
                 return YES;
-            }else{
-                return NO;
             }
+            return NO;
         }else{
             return YES;
         }
@@ -233,7 +232,10 @@
         if ([self.canInputCharacters containsObject:string] ||[self.canInputPasswords containsObject:string]) {
             return YES;
         }else{
-            return NO;
+            if ([string pp_isSpecialLetter] || [self.canotInputCharacters containsObject:string]) {
+                return NO;
+            }
+            return YES;
         }
     }
     return YES;
