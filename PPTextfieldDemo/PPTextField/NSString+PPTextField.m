@@ -9,19 +9,22 @@
 #import "NSString+PPTextField.h"
 
 @implementation NSString (PPTextField)
--(BOOL)pp_is:(PPTextFieldStringType)stringType
+- (BOOL)pp_is:(PPTextFieldStringType)stringType
 {
     return [self matchRegularWith:stringType];
 }
--(BOOL)pp_isSpecialLetter
+
+
+- (BOOL)pp_isSpecialLetter
 {
     if ([self pp_is:PPTextFieldStringTypeNumber] || [self pp_is:PPTextFieldStringTypeLetter] || [self pp_is:PPTextFieldStringTypeChinese]) {
         return NO;
     }
     return YES;
 }
+
 #pragma mark --- 用正则判断条件
--(BOOL)matchRegularWith:(PPTextFieldStringType)type
+- (BOOL)matchRegularWith:(PPTextFieldStringType)type
 {
     NSString *regularStr = @"";
     switch (type) {
@@ -44,26 +47,27 @@
     }
     return NO;
 }
--(int)pp_getStrLengthWithCh2En1
+
+- (NSUInteger)pp_lengthForCN2EN1
 {
-    int strLength = 0;
+    NSUInteger length = 0;
     char* p = (char*)[self cStringUsingEncoding:NSUnicodeStringEncoding];
-    for (int i=0 ; i<[self lengthOfBytesUsingEncoding:NSUnicodeStringEncoding] ;i++) {
+    for (int i = 0 ; i < [self lengthOfBytesUsingEncoding:NSUnicodeStringEncoding]; i++) {
         if (*p) {
             p++;
-            strLength++;
+            length++;
         }else {
             p++;
         }
     }
-    return strLength;
+    return length;
 }
 
--(NSString *)pp_removeSpecialLettersExceptLetters:(NSArray<NSString *> *)exceptLetters
+- (NSString *)pp_removeSpecialLettersExceptLetters:(NSArray<NSString *> *)exceptLetters
 {
     if (self.length > 0) {
         NSMutableString *resultStr = [[NSMutableString alloc]init];
-        for (int i = 0; i<self.length; i++) {
+        for (int i = 0; i < self.length; i++) {
             NSString *indexStr = [self substringWithRange:NSMakeRange(i, 1)];
             
             if (![indexStr pp_isSpecialLetter] || (exceptLetters && [exceptLetters containsObject:indexStr])) {
@@ -79,4 +83,5 @@
         return @"";
     }
 }
+
 @end
