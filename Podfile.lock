@@ -1,0 +1,16 @@
+PODS:
+  - PPTextField (0.0.1)
+
+DEPENDENCIES:
+  - PPTextField (from `../PPTextField`)
+
+EXTERNAL SOURCES:
+  PPTextField:
+    :path: "../PPTextField"
+
+SPEC CHECKSUMS:
+  PPTextField: e3c53f37982452db8eca906ddb59edf2c5f8407c
+
+PODFILE CHECKSUM: 7f79498b101bb360291c1d970e6d268e558407a2
+
+COCOAPODS: 1.10.0

@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                       UITextField各种限制，从此一个属性就能解决！
+                       最近总算抽空整理一下，支持pod。UITextField各种限制，从此一个属性就能解决！比如：手机号（11位）、密码（只能数字和字母）、最大字符串（是否区分中英文）等等这样的限制,以及实时监测输入文字、结束编辑时回调等。
                    DESC
 
   spec.homepage     = "https://github.com/PPAbner/PPTextField"
@@ -39,7 +39,11 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => 'MIT', :text => <<-LICENSE
+         Copyright PPAbner 2016
+          LICENSE
+      }
+      
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,10 +95,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PPTextField", "PPTextField/**/*.{h,m}"
+  spec.source_files  = "PPTextField/**"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "PPTextField/**/*.h"
+  spec.public_header_files = "PPTextField/PPTextField.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

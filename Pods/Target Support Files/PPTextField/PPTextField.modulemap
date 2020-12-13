@@ -1,0 +1,6 @@
+framework module PPTextField {
+  umbrella header "PPTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

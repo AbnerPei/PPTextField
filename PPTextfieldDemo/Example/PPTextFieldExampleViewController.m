@@ -7,8 +7,7 @@
 //
 
 #import "PPTextFieldExampleViewController.h"
-#import "PPTextfield.h"
-
+#import <PPTextField/PPTextField.h>
 @interface PPTextFieldExampleViewController ()
 
 @end

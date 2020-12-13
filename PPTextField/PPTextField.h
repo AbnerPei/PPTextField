@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PPTextFieldAssistant.h"
+
 @class PPTextField;
+@class PPTextFieldAssistant;
 
 NS_ASSUME_NONNULL_BEGIN
 

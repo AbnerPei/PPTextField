@@ -8,6 +8,7 @@
 
 #import "PPTextField.h"
 #import "NSString+PPTextField.h"
+#import "PPTextFieldAssistant.h"
 
 @interface PPTextField ()
 @property (nonatomic, strong) PPTextFieldAssistant *internalAssistant;

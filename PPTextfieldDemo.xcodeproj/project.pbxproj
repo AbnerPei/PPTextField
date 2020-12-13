@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570F721A1E7E9A02006BCAFC /* NSString+PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */; };
-		570F721B1E7E9A02006BCAFC /* PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F72191E7E9A02006BCAFC /* PPTextField.m */; };
 		8468C15A2584F83E00A03CB2 /* PPTextFieldExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468C1592584F83E00A03CB2 /* PPTextFieldExampleViewController.m */; };
-		84F624E6258368AB001C62F8 /* PPTextFieldAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F624E5258368AB001C62F8 /* PPTextFieldAssistant.m */; };
+		A662A4118985AF5B3F92C65E /* Pods_PPTextfieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A287AAA3F004AD9870B851E0 /* Pods_PPTextfieldDemo.framework */; };
 		C6FEE3FB1DAB74BA00316D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE3FA1DAB74BA00316D14 /* main.m */; };
 		C6FEE3FE1DAB74BA00316D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE3FD1DAB74BA00316D14 /* AppDelegate.m */; };
 		C6FEE4011DAB74BA00316D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEE4001DAB74BA00316D14 /* ViewController.m */; };
@@ -20,14 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		570F72161E7E9A02006BCAFC /* NSString+PPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPTextField.h"; sourceTree = "<group>"; };
-		570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPTextField.m"; sourceTree = "<group>"; };
-		570F72181E7E9A02006BCAFC /* PPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextField.h; sourceTree = "<group>"; };
-		570F72191E7E9A02006BCAFC /* PPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextField.m; sourceTree = "<group>"; };
+		1D7C260DD4CA0A7C060676EE /* Pods-PPTextfieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPTextfieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8468C1582584F83E00A03CB2 /* PPTextFieldExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPTextFieldExampleViewController.h; sourceTree = "<group>"; };
 		8468C1592584F83E00A03CB2 /* PPTextFieldExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTextFieldExampleViewController.m; sourceTree = "<group>"; };
-		84F624E4258368AB001C62F8 /* PPTextFieldAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPTextFieldAssistant.h; sourceTree = "<group>"; };
-		84F624E5258368AB001C62F8 /* PPTextFieldAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTextFieldAssistant.m; sourceTree = "<group>"; };
+		A287AAA3F004AD9870B851E0 /* Pods_PPTextfieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPTextfieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FEE3F61DAB74BA00316D14 /* PPTextfieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPTextfieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FEE3FA1DAB74BA00316D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6FEE3FC1DAB74BA00316D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +32,7 @@
 		C6FEE4051DAB74BA00316D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FEE4081DAB74BA00316D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6FEE40A1DAB74BB00316D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C043A2FDC961661B7E719A /* Pods-PPTextfieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPTextfieldDemo.release.xcconfig"; path = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,23 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A662A4118985AF5B3F92C65E /* Pods_PPTextfieldDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		570F72151E7E9A02006BCAFC /* PPTextField */ = {
+		05AE32F3D3D8D9DA8276B312 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				570F72161E7E9A02006BCAFC /* NSString+PPTextField.h */,
-				570F72171E7E9A02006BCAFC /* NSString+PPTextField.m */,
-				570F72181E7E9A02006BCAFC /* PPTextField.h */,
-				570F72191E7E9A02006BCAFC /* PPTextField.m */,
-				84F624E4258368AB001C62F8 /* PPTextFieldAssistant.h */,
-				84F624E5258368AB001C62F8 /* PPTextFieldAssistant.m */,
+				1D7C260DD4CA0A7C060676EE /* Pods-PPTextfieldDemo.debug.xcconfig */,
+				E7C043A2FDC961661B7E719A /* Pods-PPTextfieldDemo.release.xcconfig */,
 			);
-			path = PPTextField;
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A0A46C783B69457E5E10636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A287AAA3F004AD9870B851E0 /* Pods_PPTextfieldDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8468C1572584F81700A03CB2 /* Example */ = {
@@ -78,6 +79,8 @@
 			children = (
 				C6FEE3F81DAB74BA00316D14 /* PPTextfieldDemo */,
 				C6FEE3F71DAB74BA00316D14 /* Products */,
+				05AE32F3D3D8D9DA8276B312 /* Pods */,
+				2A0A46C783B69457E5E10636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +95,6 @@
 		C6FEE3F81DAB74BA00316D14 /* PPTextfieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				570F72151E7E9A02006BCAFC /* PPTextField */,
 				8468C1572584F81700A03CB2 /* Example */,
 				C6FEE3FC1DAB74BA00316D14 /* AppDelegate.h */,
 				C6FEE3FD1DAB74BA00316D14 /* AppDelegate.m */,
@@ -122,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6FEE40D1DAB74BB00316D14 /* Build configuration list for PBXNativeTarget "PPTextfieldDemo" */;
 			buildPhases = (
+				0619E6DD3F6BF3FCD60FFD99 /* [CP] Check Pods Manifest.lock */,
 				C6FEE3F21DAB74BA00316D14 /* Sources */,
 				C6FEE3F31DAB74BA00316D14 /* Frameworks */,
 				C6FEE3F41DAB74BA00316D14 /* Resources */,
+				1C6C35051C6DB4AD51AC7A8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,18 +185,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0619E6DD3F6BF3FCD60FFD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPTextfieldDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C6C35051C6DB4AD51AC7A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PPTextField/PPTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6FEE3F21DAB74BA00316D14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F624E6258368AB001C62F8 /* PPTextFieldAssistant.m in Sources */,
 				C6FEE4011DAB74BA00316D14 /* ViewController.m in Sources */,
 				8468C15A2584F83E00A03CB2 /* PPTextFieldExampleViewController.m in Sources */,
-				570F721A1E7E9A02006BCAFC /* NSString+PPTextField.m in Sources */,
 				C6FEE3FE1DAB74BA00316D14 /* AppDelegate.m in Sources */,
 				C6FEE3FB1DAB74BA00316D14 /* main.m in Sources */,
-				570F721B1E7E9A02006BCAFC /* PPTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +370,7 @@
 		};
 		C6FEE40E1DAB74BB00316D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7C260DD4CA0A7C060676EE /* Pods-PPTextfieldDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AC8HSLRJXT;
@@ -338,6 +383,7 @@
 		};
 		C6FEE40F1DAB74BB00316D14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C043A2FDC961661B7E719A /* Pods-PPTextfieldDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AC8HSLRJXT;
