@@ -104,8 +104,8 @@ void PPTFLogText(PPTextField *tf){
     }
     
     ///特殊字符 【一定要放在该方法最后一个判断，要不会影响哪些它互斥的设置】
-    if (!_tf.canInputSpecialCharacter) {
-        if ([_tf.charactersThatCanInput containsObject:string] ||[_tf.passwordsThatCanInput containsObject:string]) {
+    if (!_tf.canInputSpecialCharacter && (_tf.charactersThatCanInput.count > 0 || _tf.passwordsThatCanInput.count > 0)) {
+        if ([_tf.charactersThatCanInput containsObject:string] || [_tf.passwordsThatCanInput containsObject:string]) {
             return YES;
         }else{
             if ([string pp_isSpecialLetter] || [_tf.charactersThatCanotInput containsObject:string]) {
@@ -114,6 +114,7 @@ void PPTFLogText(PPTextField *tf){
             return YES;
         }
     }
+    
     return YES;
 }
 
@@ -197,7 +198,12 @@ void PPTFLogText(PPTextField *tf){
     
     ///特殊字符处理
     if (!_tf.canInputSpecialCharacter) {
-        NSMutableArray *filterArrs = [NSMutableArray arrayWithArray:_tf.charactersThatCanInput];
+        NSMutableArray *filterArrs;
+        if (_tf.charactersThatCanInput.count > 0) {
+            filterArrs = [NSMutableArray arrayWithArray:_tf.charactersThatCanInput];
+        }else{
+            filterArrs = [NSMutableArray array];
+        }
         ///要处理
         if (_tf.isPassword && _tf.passwordsThatCanInput.count > 0) {
             [filterArrs addObjectsFromArray:_tf.passwordsThatCanInput];

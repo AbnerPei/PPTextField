@@ -21,19 +21,19 @@
     self.view.backgroundColor = [UIColor colorWithRed:176/255.0 green:23/255.0 blue:31/255.0 alpha:1.0];
     self.title = @"PPTextField";
     
-    [self pushToExampleVC];
+    [self pushToExampleVC:NO];
     
 }
 
-- (void)pushToExampleVC
+- (void)pushToExampleVC:(BOOL)animated
 {
     PPTextFieldExampleViewController *vc = [[PPTextFieldExampleViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:NO];
+    [self.navigationController pushViewController:vc animated:animated];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self pushToExampleVC];
+    [self pushToExampleVC:YES];
 }
 
 
