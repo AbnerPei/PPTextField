@@ -94,7 +94,7 @@ typedef void(^PPTextFieldDidTappedReturnBlock)(PPTextField *tf);
 @property (nonatomic, assign) BOOL isPhoneNumber;
 
 /**
- 价格(只有一个"."，小数点后保留2位小数)
+ 价格(只有一个"."，默认小数点后保留2位小数)
  
  ◥◤首位不能输入.◥◤
  ◥◤首位输入0，第二位不是.，会自动补充.◥◤
@@ -102,6 +102,9 @@ typedef void(^PPTextFieldDidTappedReturnBlock)(PPTextField *tf);
  ☠☠如果isPrice == YES,则isOnlyNumber=No,即使isOnlyNumber设置为YES也没用,此时canotInputCharacters无效☠☠
  */
 @property (nonatomic, assign) BOOL isPrice;
+
+/// 小数点后保留X位小数，默认2
+@property (nonatomic, assign) NSUInteger decimalPlaces;
 
 ///价格是否允许以“.”开头，默认是不允许，如果允许，请设置为YES。
 /// ☠☠设置了isAllowPricePrefixPoint，则isPrice = YES,此时canotInputCharacters无效☠☠

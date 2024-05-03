@@ -35,6 +35,7 @@
     _didChangedTextBlockTiming = PPTextFieldDidChangedTextBlockTimingWhenDidTappedChinese;
     _isOnDebug = NO;
     _isClearWhileEditing = YES;
+    _decimalPlaces = 2;
     if (_isClearWhileEditing) {
         self.clearButtonMode = UITextFieldViewModeWhileEditing;
     }

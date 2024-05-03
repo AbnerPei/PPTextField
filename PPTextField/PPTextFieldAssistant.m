@@ -310,7 +310,7 @@ void PPTFLogText(PPTextField *tf){
                     ///判断小数点的位数
                     NSRange pointRange = [textField.text rangeOfString:@"."];
                     NSUInteger pointDigit = range.location - pointRange.location;
-                    if (pointDigit <= 2){
+                    if (pointDigit <= _tf.decimalPlaces){
                         return YES;
                     }else{
                         return NO;

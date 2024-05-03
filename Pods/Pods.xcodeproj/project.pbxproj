@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59956E8D9918F06DB839AA8BA63AD60C /* Pods-PPTextfieldDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F5DFF3881BC705F6E8A186F3677CBD /* Pods-PPTextfieldDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E31F1806A0C40F2763E99A8BEB5FC23 /* PPTextFieldAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B05C3B44A0B93CB9C3BD6F9218EED1 /* PPTextFieldAssistant.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6406BA03FCE8CF616B83E3CA7764360D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		68A24D6FA5FDBC927503CFB8377ABA71 /* PPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9A55EC9358F1756B9083E701EE0F7 /* PPTextField-dummy.m */; };
-		6AC4995376887EB8E27D81D2897DCFC8 /* PPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6297D2FF962BA9BE87A1D9E035BF9D /* PPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6D3BD0E0824A5ED2BC90228BA920F7 /* Pods-PPTextfieldDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6D29DFE338D1A6535B976D93D4C2A1 /* Pods-PPTextfieldDemo-dummy.m */; };
-		8EAD5DE607C9601FC55EAC888242F516 /* NSString+PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 37692452297C800763BC54AEE9FB347F /* NSString+PPTextField.m */; };
-		92DE2DBD1032839DEF6ADE60BE4605AB /* PPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9D8AA311B6B8E0B89F05EFA52FEA7A /* PPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3EE4F3696A03AFA98673D25AF3FF88B /* PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D990A6E456D0CCD5E1DF2A2A128F73AA /* PPTextField.m */; };
-		D34AD6C69FF05D850BCD466CEDECC4EC /* NSString+PPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F9B648DA92F7BBFB88CBE8733CDC83 /* NSString+PPTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E100659A227062B1C0C686FBBBE1DE22 /* PPTextFieldAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB023E84514C29E2CA721CA3B16A25 /* PPTextFieldAssistant.m */; };
-		F21C9BA8B8FDAAF2843174EF3E332019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		046462A2AC25D4A73F8717F6F0B680B9 /* PPTextFieldAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B05C3B44A0B93CB9C3BD6F9218EED1 /* PPTextFieldAssistant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F489B1DCCB78A69DAEDE6C3816577D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		11A8A0DF35A35157BC5010DC7BCCB060 /* PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D990A6E456D0CCD5E1DF2A2A128F73AA /* PPTextField.m */; };
+		40546D7052374D5F6E71E586E4E518BF /* NSString+PPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F9B648DA92F7BBFB88CBE8733CDC83 /* NSString+PPTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		430D0FDA615781C8CC0062F1E36A9FBD /* PPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6297D2FF962BA9BE87A1D9E035BF9D /* PPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6879D3872F79D963D0FF4959C855BC7C /* Pods-PPTextfieldDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F5DFF3881BC705F6E8A186F3677CBD /* Pods-PPTextfieldDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85377CC897A0B8080A2F95833B3F17DE /* PPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9D8AA311B6B8E0B89F05EFA52FEA7A /* PPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16325BD09AC0DDFE12969EC3D8A7AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C436D727D216E917403172027A0255A5 /* PPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9A55EC9358F1756B9083E701EE0F7 /* PPTextField-dummy.m */; };
+		CDF72F93FCBF8B4A5D2709561C93F117 /* Pods-PPTextfieldDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6D29DFE338D1A6535B976D93D4C2A1 /* Pods-PPTextfieldDemo-dummy.m */; };
+		F38891CF9B10C9322524AC7C1BDE40C2 /* PPTextFieldAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB023E84514C29E2CA721CA3B16A25 /* PPTextFieldAssistant.m */; };
+		F4831C12E0AD445FE21C505114D2BACB /* NSString+PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 37692452297C800763BC54AEE9FB347F /* NSString+PPTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E8FC90E6455AF1B06C09DF9EC8901691 /* PBXContainerItemProxy */ = {
+		527928FE32E3FDB432D6FCAF6CDB7E0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,42 +41,42 @@
 		54CB023E84514C29E2CA721CA3B16A25 /* PPTextFieldAssistant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPTextFieldAssistant.m; path = PPTextField/PPTextFieldAssistant.m; sourceTree = "<group>"; };
 		67859076D57ECCD5D26311713F3AC2C1 /* PPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTextField.release.xcconfig; sourceTree = "<group>"; };
 		6AE9A543D6EB6AC2CDFD1AA5801615D1 /* PPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPTextField.modulemap; sourceTree = "<group>"; };
-		6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPTextField; path = PPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9D8AA311B6B8E0B89F05EFA52FEA7A /* PPTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTextField.h; path = PPTextField/PPTextField.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75F5DFF3881BC705F6E8A186F3677CBD /* Pods-PPTextfieldDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPTextfieldDemo-umbrella.h"; sourceTree = "<group>"; };
 		8AB64A6ABF21A74FB72910163C372DC2 /* PPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPTextField-Info.plist"; sourceTree = "<group>"; };
-		96AB13D2E7DF5AB810D6CFBE41D8B266 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AB13D2E7DF5AB810D6CFBE41D8B266 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1186CC6F0A7B67B51377F088A0133E9 /* Pods-PPTextfieldDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPTextfieldDemo.modulemap"; sourceTree = "<group>"; };
 		AC6D29DFE338D1A6535B976D93D4C2A1 /* Pods-PPTextfieldDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPTextfieldDemo-dummy.m"; sourceTree = "<group>"; };
 		B3F9B648DA92F7BBFB88CBE8733CDC83 /* NSString+PPTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PPTextField.h"; path = "PPTextField/NSString+PPTextField.h"; sourceTree = "<group>"; };
 		BB6668740D137A42F6758754152F12B9 /* Pods-PPTextfieldDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPTextfieldDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		BE6D66E48E337843DE948089967F6604 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE6D66E48E337843DE948089967F6604 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D96B77D8D87F5DF31202A8FB57D6A8BE /* Pods-PPTextfieldDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPTextfieldDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D990A6E456D0CCD5E1DF2A2A128F73AA /* PPTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPTextField.m; path = PPTextField/PPTextField.m; sourceTree = "<group>"; };
-		D9D918670FE1769EDE84478A5C970DEA /* Pods_PPTextfieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPTextfieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D918670FE1769EDE84478A5C970DEA /* Pods-PPTextfieldDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PPTextfieldDemo"; path = Pods_PPTextfieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF00B43A07B8A1F40823600494566B5B /* PPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTextField-prefix.pch"; sourceTree = "<group>"; };
 		E8F9A55EC9358F1756B9083E701EE0F7 /* PPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTextField-dummy.m"; sourceTree = "<group>"; };
 		E93A3B82740AA3F55C20C7276CCD7206 /* Pods-PPTextfieldDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPTextfieldDemo-Info.plist"; sourceTree = "<group>"; };
-		F3AAA008857323509F0A08EBC41A7EDA /* PPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PPTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3AAA008857323509F0A08EBC41A7EDA /* PPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE6297D2FF962BA9BE87A1D9E035BF9D /* PPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTextField-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BDB759AC248A5434C7166D01EAB19D6 /* Frameworks */ = {
+		D29DACEC55E64C40713399B632D934FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21C9BA8B8FDAAF2843174EF3E332019 /* Foundation.framework in Frameworks */,
+				B16325BD09AC0DDFE12969EC3D8A7AA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69A1D512B4E720924226B8D67D8B7E53 /* Frameworks */ = {
+		EE436EC4F6D7EC38A226B7EA9CD76C5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6406BA03FCE8CF616B83E3CA7764360D /* Foundation.framework in Frameworks */,
+				0F489B1DCCB78A69DAEDE6C3816577D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +132,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6857F847A13E6C2DC5458B5569E3D2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D918670FE1769EDE84478A5C970DEA /* Pods-PPTextfieldDemo */,
+				6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		89200CE8C32C8A1B18CA8EC999844DC7 /* PPTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,22 +157,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		8951617F4A3D31349C069842675B4368 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9D918670FE1769EDE84478A5C970DEA /* Pods_PPTextfieldDemo.framework */,
-				6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0CCC57259A12CC8B8C97129528E35AF1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8951617F4A3D31349C069842675B4368 /* Products */,
+				6857F847A13E6C2DC5458B5569E3D2B3 /* Products */,
 				3B8D213378905EA57E7FC81B41C38FFC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,22 +196,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C2DA3AE7434E54792DD5D0F015788CD /* Headers */ = {
+		D75D48CA9CC666874081A6557106A8FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59956E8D9918F06DB839AA8BA63AD60C /* Pods-PPTextfieldDemo-umbrella.h in Headers */,
+				40546D7052374D5F6E71E586E4E518BF /* NSString+PPTextField.h in Headers */,
+				85377CC897A0B8080A2F95833B3F17DE /* PPTextField.h in Headers */,
+				430D0FDA615781C8CC0062F1E36A9FBD /* PPTextField-umbrella.h in Headers */,
+				046462A2AC25D4A73F8717F6F0B680B9 /* PPTextFieldAssistant.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6130F81856A30192C1B252B6CD33B29 /* Headers */ = {
+		F5F8FB7B6D261E9A168A0C0AFE77E9BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34AD6C69FF05D850BCD466CEDECC4EC /* NSString+PPTextField.h in Headers */,
-				6AC4995376887EB8E27D81D2897DCFC8 /* PPTextField-umbrella.h in Headers */,
-				92DE2DBD1032839DEF6ADE60BE4605AB /* PPTextField.h in Headers */,
-				5E31F1806A0C40F2763E99A8BEB5FC23 /* PPTextFieldAssistant.h in Headers */,
+				6879D3872F79D963D0FF4959C855BC7C /* Pods-PPTextfieldDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,31 +220,31 @@
 /* Begin PBXNativeTarget section */
 		4FF62F0E97C42DCF4638FFD794A66D77 /* Pods-PPTextfieldDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EFE09F09ADBBFB46A878E4FD0BA3B13 /* Build configuration list for PBXNativeTarget "Pods-PPTextfieldDemo" */;
+			buildConfigurationList = 7C75F2D9908E944DE51E878C2956524B /* Build configuration list for PBXNativeTarget "Pods-PPTextfieldDemo" */;
 			buildPhases = (
-				2C2DA3AE7434E54792DD5D0F015788CD /* Headers */,
-				AF61F5D17D86A0CFD0A508A1472C0B0A /* Sources */,
-				5BDB759AC248A5434C7166D01EAB19D6 /* Frameworks */,
-				C2DFDCAD6920476C1A9B61D0F9985304 /* Resources */,
+				F5F8FB7B6D261E9A168A0C0AFE77E9BC /* Headers */,
+				55E372200BD41D41FE875F1E193F7234 /* Sources */,
+				D29DACEC55E64C40713399B632D934FE /* Frameworks */,
+				5AA24BD8A6584A8179336FCD123D7119 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				235763EBC270404EDF302793E90F0DBB /* PBXTargetDependency */,
+				25C0F9FAB3D89F507E9FA447619C9F8A /* PBXTargetDependency */,
 			);
 			name = "Pods-PPTextfieldDemo";
-			productName = "Pods-PPTextfieldDemo";
-			productReference = D9D918670FE1769EDE84478A5C970DEA /* Pods_PPTextfieldDemo.framework */;
+			productName = Pods_PPTextfieldDemo;
+			productReference = D9D918670FE1769EDE84478A5C970DEA /* Pods-PPTextfieldDemo */;
 			productType = "com.apple.product-type.framework";
 		};
 		8ADF4CBE8EF374EB4609CF2CFC4DF394 /* PPTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6077E3B34F1D31EACAF0471989237DA6 /* Build configuration list for PBXNativeTarget "PPTextField" */;
+			buildConfigurationList = 7A57D2B12959D3E92CC19F9EB7EB2420 /* Build configuration list for PBXNativeTarget "PPTextField" */;
 			buildPhases = (
-				A6130F81856A30192C1B252B6CD33B29 /* Headers */,
-				AD0BA7BA21FD9B3735476504307416A5 /* Sources */,
-				69A1D512B4E720924226B8D67D8B7E53 /* Frameworks */,
-				C7066D5B75F6B74A5A3198412354C935 /* Resources */,
+				D75D48CA9CC666874081A6557106A8FA /* Headers */,
+				3BC4BADFD37DC04C09927752EC6271F0 /* Sources */,
+				EE436EC4F6D7EC38A226B7EA9CD76C5D /* Frameworks */,
+				74397CC8DE1BAC1D5080829FA4D057A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -252,7 +252,7 @@
 			);
 			name = PPTextField;
 			productName = PPTextField;
-			productReference = 6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField.framework */;
+			productReference = 6C9EF99EC0E4448EB9F670C2AE670703 /* PPTextField */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,19 +261,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8951617F4A3D31349C069842675B4368 /* Products */;
+			productRefGroup = 6857F847A13E6C2DC5458B5569E3D2B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -284,14 +284,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2DFDCAD6920476C1A9B61D0F9985304 /* Resources */ = {
+		5AA24BD8A6584A8179336FCD123D7119 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7066D5B75F6B74A5A3198412354C935 /* Resources */ = {
+		74397CC8DE1BAC1D5080829FA4D057A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,33 +301,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD0BA7BA21FD9B3735476504307416A5 /* Sources */ = {
+		3BC4BADFD37DC04C09927752EC6271F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAD5DE607C9601FC55EAC888242F516 /* NSString+PPTextField.m in Sources */,
-				68A24D6FA5FDBC927503CFB8377ABA71 /* PPTextField-dummy.m in Sources */,
-				C3EE4F3696A03AFA98673D25AF3FF88B /* PPTextField.m in Sources */,
-				E100659A227062B1C0C686FBBBE1DE22 /* PPTextFieldAssistant.m in Sources */,
+				F4831C12E0AD445FE21C505114D2BACB /* NSString+PPTextField.m in Sources */,
+				11A8A0DF35A35157BC5010DC7BCCB060 /* PPTextField.m in Sources */,
+				C436D727D216E917403172027A0255A5 /* PPTextField-dummy.m in Sources */,
+				F38891CF9B10C9322524AC7C1BDE40C2 /* PPTextFieldAssistant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF61F5D17D86A0CFD0A508A1472C0B0A /* Sources */ = {
+		55E372200BD41D41FE875F1E193F7234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C6D3BD0E0824A5ED2BC90228BA920F7 /* Pods-PPTextfieldDemo-dummy.m in Sources */,
+				CDF72F93FCBF8B4A5D2709561C93F117 /* Pods-PPTextfieldDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		235763EBC270404EDF302793E90F0DBB /* PBXTargetDependency */ = {
+		25C0F9FAB3D89F507E9FA447619C9F8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PPTextField;
 			target = 8ADF4CBE8EF374EB4609CF2CFC4DF394 /* PPTextField */;
-			targetProxy = E8FC90E6455AF1B06C09DF9EC8901691 /* PBXContainerItemProxy */;
+			targetProxy = 527928FE32E3FDB432D6FCAF6CDB7E0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -398,102 +398,7 @@
 			};
 			name = Debug;
 		};
-		778F3875F1BA1DC4A8CFCBCCC2FDF5C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D8BB70AA0A3CC6BD45FBE1E85413F7B /* Pods-PPTextfieldDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7B1512BE87DEC83E678F98CE51F5B5D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3082BCF508BB12A184C2DDC01CE6A1C0 /* Pods-PPTextfieldDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9CA115F66496E6CF0B7B4901E3E3B3A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67859076D57ECCD5D26311713F3AC2C1 /* PPTextField.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PPTextField/PPTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPTextField/PPTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPTextField/PPTextField.modulemap";
-				PRODUCT_MODULE_NAME = PPTextField;
-				PRODUCT_NAME = PPTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B20C19DE4B0F5E21F7DA0F17F0FE8AC2 /* Debug */ = {
+		6FBC69FC81EDABA9DE1738C0C8FE0595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A43F466BCF87AE20A6AC87697B79EB2 /* PPTextField.debug.xcconfig */;
 			buildSettings = {
@@ -508,7 +413,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PPTextField/PPTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PPTextField/PPTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PPTextField/PPTextField.modulemap";
 				PRODUCT_MODULE_NAME = PPTextField;
@@ -521,6 +426,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9214060F11249B5107DCE9791374E62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67859076D57ECCD5D26311713F3AC2C1 /* PPTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPTextField/PPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPTextField/PPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPTextField/PPTextField.modulemap";
+				PRODUCT_MODULE_NAME = PPTextField;
+				PRODUCT_NAME = PPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF9FA78A14AC5A187A9CAC7F17CBB72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3082BCF508BB12A184C2DDC01CE6A1C0 /* Pods-PPTextfieldDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -572,16 +540,49 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		CBB71AEDCB8EA1846DE9C3C2392DDC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8BB70AA0A3CC6BD45FBE1E85413F7B /* Pods-PPTextfieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PPTextfieldDemo/Pods-PPTextfieldDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -595,20 +596,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6077E3B34F1D31EACAF0471989237DA6 /* Build configuration list for PBXNativeTarget "PPTextField" */ = {
+		7A57D2B12959D3E92CC19F9EB7EB2420 /* Build configuration list for PBXNativeTarget "PPTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B20C19DE4B0F5E21F7DA0F17F0FE8AC2 /* Debug */,
-				9CA115F66496E6CF0B7B4901E3E3B3A9 /* Release */,
+				6FBC69FC81EDABA9DE1738C0C8FE0595 /* Debug */,
+				9214060F11249B5107DCE9791374E62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EFE09F09ADBBFB46A878E4FD0BA3B13 /* Build configuration list for PBXNativeTarget "Pods-PPTextfieldDemo" */ = {
+		7C75F2D9908E944DE51E878C2956524B /* Build configuration list for PBXNativeTarget "Pods-PPTextfieldDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				778F3875F1BA1DC4A8CFCBCCC2FDF5C1 /* Debug */,
-				7B1512BE87DEC83E678F98CE51F5B5D9 /* Release */,
+				CBB71AEDCB8EA1846DE9C3C2392DDC59 /* Debug */,
+				AF9FA78A14AC5A187A9CAC7F17CBB72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

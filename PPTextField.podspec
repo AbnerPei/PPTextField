@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPTextField"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "UITextField各种限制，从此一个属性就能解决！比如：手机号（11位）、密码（只能数字和字母）、最大字符串（是否区分中英文）等等这样的限制,以及实时监测输入文字、结束编辑时回调等。"
 
   # This description is used to generate tags and improve search results.

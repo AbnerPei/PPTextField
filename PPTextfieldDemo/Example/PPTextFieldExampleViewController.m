@@ -46,6 +46,8 @@
     PPTextField *tf_isPrice = [[PPTextField alloc] initWithFrame:CGRectMake(20, 180, 200, 30)];
     [self.scrollView addSubview:tf_isPrice];
     tf_isPrice.isPrice = YES;
+    tf_isPrice.isAllowPricePrefixPoint = YES;
+    tf_isPrice.decimalPlaces = 1;
     tf_isPrice.placeholder = @"tf_isPrice";
     tf_isPrice.borderStyle = UITextBorderStyleRoundedRect;
     
